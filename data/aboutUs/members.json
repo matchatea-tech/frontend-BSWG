@@ -1,0 +1,23 @@
+[
+  {
+    "id": "d28a3c71-7824-4848-b300-a10580814270",
+    "name": "New name",
+    "paragraph": "Test 1",
+    "email": "email@domain.com",
+    "role": "chair_member",
+    "images": {
+      "small": {
+        "url": "https://res.cloudinary.com/dntm0gcuy/image/upload/v1775426814/dynamic-images/d28a3c71-7824-4848-b300-a10580814270_small.webp",
+        "public_id": "dynamic-images/d28a3c71-7824-4848-b300-a10580814270_small"
+      },
+      "medium": {
+        "url": "https://res.cloudinary.com/dntm0gcuy/image/upload/v1775426815/dynamic-images/d28a3c71-7824-4848-b300-a10580814270_medium.webp",
+        "public_id": "dynamic-images/d28a3c71-7824-4848-b300-a10580814270_medium"
+      },
+      "big": {
+        "url": "https://res.cloudinary.com/dntm0gcuy/image/upload/v1775426816/dynamic-images/d28a3c71-7824-4848-b300-a10580814270_big.webp",
+        "public_id": "dynamic-images/d28a3c71-7824-4848-b300-a10580814270_big"
+      }
+    }
+  }
+]
