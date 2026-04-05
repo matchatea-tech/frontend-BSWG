@@ -7,8 +7,8 @@ function buildMember(element){
   const img = document.createElement("img");
   img.src = element.images.small.url;
   img.loading = "lazy";
-  //img.style.width = "auto";
-  //img.style.height = "auto";
+  img.style.width = "100%";
+  img.style.height = "auto";
   img.alt = "Profile Picture"
   img.srcset = `
     ${element.images.small.url} 500w,
