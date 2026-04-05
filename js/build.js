@@ -16,6 +16,7 @@ function buildMember(element){
     ${element.images.big.url} 1536w
   `;
   img.sizes = "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px";
+  img.classList.add("image-5");
   pictureWrapper.appendChild(img);
   link.appendChild(pictureWrapper);
   const h2 = document.createElement("h2");
