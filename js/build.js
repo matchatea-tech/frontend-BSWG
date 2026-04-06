@@ -61,7 +61,7 @@ function buildEvent(element){
       <p class="paragraph-10">
         ${element.paragraph}
       </p>
-      <div class="div-block-8" style="opacity:0">
+      <div class="div-block-8" style="opacity:1">
         <ul class="list">
           <li><span class="text-span-2">When:</span> ${formattedDate}</li>
           <li class="list-item-2"><span class="text-span-2">Where:</span> ${element.location}</li>
