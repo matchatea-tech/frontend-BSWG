@@ -61,7 +61,7 @@ function buildEvent(element){
       <p class="paragraph-10">
         ${element.paragraph}
       </p>
-      <div class="div-block-8" style="opacity:1">
+      <div class="div-block-8" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
         <ul class="list">
           <li><span class="text-span-2">When:</span> ${formattedDate}</li>
           <li class="list-item-2"><span class="text-span-2">Where:</span> ${element.location}</li>
