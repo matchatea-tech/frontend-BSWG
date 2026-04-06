@@ -39,7 +39,7 @@
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
-  display: grid; 
+  display: grid;
 }
 
 .w-embed-youtubevideo {
@@ -307,8 +307,7 @@ img {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  align-items: stretch;
-  justify-items: stretch;
+  place-items: center;
   margin-top: 135px;
   margin-bottom: 60px;
 }
@@ -559,6 +558,7 @@ img {
 }
 
 .heading-10 {
+  z-index: 2;
   background-image: linear-gradient(to bottom, var(--main-color-fv), var(--main-color-fv));
   perspective-origin: 0%;
   transform-origin: 0%;
@@ -640,6 +640,7 @@ img {
   margin-bottom: 60px;
   margin-left: 25px;
   padding: 20px 20px 40px;
+  position: relative;
 }
 
 .gallery-container {
@@ -892,6 +893,12 @@ img {
   .hero-section {
     background-image: url('../images/landing_hero_fv.jpg');
     background-position: 50%;
+  }
+
+  .hero-section._2-cc {
+    background-image: url('../images/herov1-2_low.jpg');
+    background-position: 50%;
+    background-size: auto;
   }
 
   .team-section {
