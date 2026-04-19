@@ -1167,6 +1167,9 @@ img {
 
 #w-node-_7e81bce2-33c3-78cb-8730-8e719823dba5-f0f1eb9c, #w-node-de5a73a4-7e06-2101-e8fa-aee407372d0e-f0f1eb9c, #w-node-e4030a88-344a-ab09-6595-201460cb4bfc-f0f1eb9c, #w-node-_1f181d3f-68ab-ce94-9e25-8fe3b47ff9dc-f0f1eb9c, #w-node-_005bc607-84c0-96e6-5b84-ed4f6423208b-f0f1eb9c, #w-node-_8327f0cd-1bcc-710b-c0d0-c67b0b6d1155-f0f1eb9c, #w-node-_4a380a78-e05b-343e-1534-e70ee3c54738-f0f1eb9c, #w-node-_7081e1f6-1bb8-d461-4f8e-ec58a9eb59a1-f0f1eb9c, #w-node-_5eb26b4c-665d-7662-7dee-a647021b8d18-f0f1eb9c, #w-node-_5d026f73-9af9-9431-28e5-985a542ad6ef-f0f1eb9c, #w-node-_27bcceaf-577c-77cf-2940-3ed757a732a1-f0f1eb9c {
   grid-area: span 1 / span 2 / span 1 / span 2;
+} /* selects all h3 inside of an event div !! have to delete in future */
+.grid-5 > h3 {
+  grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
 #w-node-_0766b5c0-219d-e6c1-80dc-e8527051e93b-f0f1eb9e {
@@ -1185,6 +1188,12 @@ img {
 
 @media screen and (max-width: 991px) {
   #w-node-_7e81bce2-33c3-78cb-8730-8e719823dba7-f0f1eb9c, #w-node-_7e81bce2-33c3-78cb-8730-8e719823dba9-f0f1eb9c, #w-node-de5a73a4-7e06-2101-e8fa-aee407372d11-f0f1eb9c, #w-node-a14664ee-df82-0d0d-288d-96724c290dcb-f0f1eb9c, #w-node-e4030a88-344a-ab09-6595-201460cb4bfe-f0f1eb9c, #w-node-e4030a88-344a-ab09-6595-201460cb4c00-f0f1eb9c, #w-node-_1f181d3f-68ab-ce94-9e25-8fe3b47ff9de-f0f1eb9c, #w-node-_1f181d3f-68ab-ce94-9e25-8fe3b47ff9e0-f0f1eb9c, #w-node-_005bc607-84c0-96e6-5b84-ed4f6423208d-f0f1eb9c, #w-node-_005bc607-84c0-96e6-5b84-ed4f6423208f-f0f1eb9c, #w-node-_8327f0cd-1bcc-710b-c0d0-c67b0b6d1157-f0f1eb9c, #w-node-_8327f0cd-1bcc-710b-c0d0-c67b0b6d1159-f0f1eb9c, #w-node-_4a380a78-e05b-343e-1534-e70ee3c5473a-f0f1eb9c, #w-node-_4a380a78-e05b-343e-1534-e70ee3c5473c-f0f1eb9c, #w-node-_7081e1f6-1bb8-d461-4f8e-ec58a9eb59a3-f0f1eb9c, #w-node-_7081e1f6-1bb8-d461-4f8e-ec58a9eb59a5-f0f1eb9c, #w-node-_5eb26b4c-665d-7662-7dee-a647021b8d1a-f0f1eb9c, #w-node-_5eb26b4c-665d-7662-7dee-a647021b8d1c-f0f1eb9c, #w-node-_5d026f73-9af9-9431-28e5-985a542ad6f1-f0f1eb9c, #w-node-_5d026f73-9af9-9431-28e5-985a542ad6f3-f0f1eb9c, #w-node-_27bcceaf-577c-77cf-2940-3ed757a732a3-f0f1eb9c, #w-node-_27bcceaf-577c-77cf-2940-3ed757a732a5-f0f1eb9c {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+  } /* selects all paragraphs and div with special information like date etc inside of an event div !! have to delete in future */
+  .grid-5 > p {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+  }
+  .grid-5 > div {
     grid-area: span 1 / span 2 / span 1 / span 2;
   }
 }
