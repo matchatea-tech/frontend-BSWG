@@ -94,5 +94,5 @@ async function buildEvents(){
 
 window.addEventListener("DOMContentLoaded", () => {
     buildMembers();
-    buildEvents();
+    //buildEvents();
 });
