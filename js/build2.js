@@ -93,6 +93,6 @@ async function buildEvents(){
 }
 
 window.addEventListener("DOMContentLoaded", () => {
-    buildMembers();
+    //buildMembers();
     buildEvents();
 });
