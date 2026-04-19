@@ -52,7 +52,7 @@ function buildEvent(element){
     year: "numeric"
   });
   parentElements.forEach(parentElement => {
-    parentElement.innerHTML += `
+    parentElement.insertAdjacentHTML("beforeend", `
     <h3 class="heading-10">${formattedDate}</h3>
     <div class="w-layout-grid grid-5">
       <h3 class="heading-11">
@@ -72,7 +72,7 @@ function buildEvent(element){
         </ul>
       </div>
     </div>
-  `;
+  `);
   });
   
 }
