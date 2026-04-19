@@ -90,6 +90,9 @@ async function buildEvents(){
   const response = await fetch(url);
   const events = await response.json();
   events.forEach(element => buildEvent(element));
+  window.Webflow?.destroy();
+  window.Webflow?.ready();
+  window.Webflow?.require('ix2').init();
 }
 
 window.addEventListener("load", () => {
