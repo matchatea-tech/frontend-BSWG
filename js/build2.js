@@ -92,7 +92,7 @@ async function buildEvents(){
   events.forEach(element => buildEvent(element));
 }
 
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
     //buildMembers();
     buildEvents();
 });
