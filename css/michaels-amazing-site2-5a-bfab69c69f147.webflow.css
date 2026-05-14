@@ -875,7 +875,7 @@ img {
 
   .div-block-11 {
     flex-flow: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     display: flex;
   }
@@ -1030,7 +1030,7 @@ img {
 
   .div-block-11 {
     flex-flow: column;
-    justify-content: center;
+    justify-content: start;
     align-items: flex-start;
   }
 
