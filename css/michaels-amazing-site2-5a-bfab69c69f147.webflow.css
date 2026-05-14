@@ -307,7 +307,7 @@ img {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  place-items: center;
+  place-items: stretch;
   margin-top: 135px;
   margin-bottom: 60px;
 }
